@@ -137,7 +137,7 @@ def login(): #ganti
 		print("""%s \33[1;32m2"""%(h))
 		print("""%s \33[1;32m3"""%(h))
 		print("""%s \33[1;32mDOOORR"""%(h))
-		print("""%s \33[1;96mJalan kan perintah python barus.py """%(h))
+		print("""%s \33[1;96mJalan kan perintah python ctv.py """%(h))
 		print("""%s \n"""%(h))
 		print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
 		jalan('%s╚══[%s!%s] %sLOGIN BERHASIL JALANKAN ULANG TOOLS'%(M,P,M,P))
@@ -155,7 +155,7 @@ def login(): #ganti
 		sol().print(lo, style='cyan')
 		exit()
 		
-def menu(my_name,my_kill,my_adventure): #ganti
+def menu(): #ganti
 	banner()
 	print(x+'\033[95mNAMA  : '+str(my_jeneng)) #ganti
 	print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
@@ -187,7 +187,7 @@ def menu(my_name,my_kill,my_adventure): #ganti
 		print("""%s \33[1;33mNgajak gelud om pilih yang bener """%(h))
 		exit()
 
-def result(ngewe): #ganti
+def result(): #ganti
 	cek = '# CEK RESULT CRACK'
 	sol().print(mark(cek, style='green'))
 	kayes = '[01] Cek Hasil Cp\n[02] Cek Hasil Ok\n[00] Kembali Ke Menu'
