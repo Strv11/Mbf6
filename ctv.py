@@ -122,7 +122,7 @@ def login():
 		except IOError:
 			login_kontol()
 
-def login(menu): #ganti
+def login(): #ganti
 	banner()
 	print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
 	print("""%s    \33[1;32mMASUKAN TOKEN FACEBOOK """%(h))
